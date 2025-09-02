@@ -1,7 +1,7 @@
 app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = """ERP made simple"""
+app_title = "iCanCare ERP"
+app_publisher = "Dwrko Technologies"
+app_description = """Healthcare ERP Solution by iCanCare"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
 app_email = "hello@frappe.io"
@@ -13,8 +13,8 @@ app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
 add_to_apps_screen = [
 	{
 		"name": "erpnext",
-		"logo": "/assets/erpnext/images/erpnext-logo-blue.png",
-		"title": "ERPNext",
+		"logo": "/assets/icancare_custom/icancare-logo.png",
+		"title": "iCanCare ERP",
 		"route": "/app/home",
 		"has_permission": "erpnext.check_app_permission",
 	}
