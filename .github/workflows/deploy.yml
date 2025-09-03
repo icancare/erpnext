@@ -134,7 +134,7 @@ jobs:
         if: success()
         run: |
           echo "🎉 iCanCare ERPNext App deployed successfully!"
-          echo "🌐 Access your site at: http://${{ secrets.SERVER_HOST }}"
+          echo "🌐 Access your site at: https://health.dev.icancare.com"
           
       - name: Notify Failure
         if: failure()
